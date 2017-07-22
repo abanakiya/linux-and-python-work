@@ -16,3 +16,5 @@ rdesktop:   avail. from default repo, or http://www.rdesktop.org/
                          reboot
 
 wol:        avail. from default repo
+
+winexe:     https://sourceforge.net/projects/winexe/ (source not tested)
