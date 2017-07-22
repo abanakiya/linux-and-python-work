@@ -1,0 +1,3 @@
+# Bash script mounting shares on Windows based servers
+
+mount -t cifs -o username=<username w/o domain prefix> //<server addr/share folder> /mnt/remoteshare/
