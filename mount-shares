@@ -2,7 +2,7 @@
 # mount -t cifs -o username=<username w/o domain prefix> //<server addr/share folder> /mnt/remoteshare/
 
 # Example, mounting remote host c drive (requires file/printer sharing enabled), account = domain\uname
-  read -p "Enter last two decimal of IP address: "
+  read -p "Enter IP address: "
   varIP=$REPLY
   read -s -p "Enter domain password for uname: "
   varPwd=$REPLY
