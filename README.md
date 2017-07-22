@@ -1,2 +1,16 @@
-# linux-and-python-work
-short scriptlets and procedures to make remote windows workstations submissive
+# System: 
+  Fedora, Kali
+
+# Installed:
+Impacket:   https://www.coresecurity.com/corelabs-research/open-source-tools/impacket
+            (Note 20170126 - Fedora 25 requirements: pycrypto, pyasnl)
+
+rdesktop:   avail. from default repo, or http://www.rdesktop.org/
+            Note 20170126 - Wayland is implemented since Fedora 25, which restricts apps w/GUI from running as root
+            Solution: 1. Run these GUI apps as other users
+                      2. Fall back to X11 (disable wayland, less safe option):
+                         /etc/gdm/custom.conf
+                         # waylandenable = false
+                         reboot
+
+wol:        avail. from default repo
