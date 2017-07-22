@@ -3,7 +3,7 @@
 
 # Installed:
 Impacket:   https://www.coresecurity.com/corelabs-research/open-source-tools/impacket
-            (Note 20170126 - Fedora 25 requirements: pycrypto, pyasnl)
+            Note 20170126 - Fedora 25 requirements: pycrypto, pyasnl
 
 rdesktop:   avail. from default repo, or http://www.rdesktop.org/
             Note 20170126 - Wayland is implemented since Fedora 25, which restricts apps w/GUI from running as root
