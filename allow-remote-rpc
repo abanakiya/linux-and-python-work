@@ -5,7 +5,7 @@ varIP=$REPLY
 read -s -p "Enter domain password (uname): "
 varPwd=$REPLY
 
-net rpc registry setvalue "HKLM\SYSTEM\CURRENTCONTROLSET\CONTROL\TERMINAL SERVER" "ALLOWREMOTERPC" "DWORD" "1" -U <dname>\\<uname>%$varPwd -I $varIP
+net rpc registry setvalue "HKLM\SYSTEM\CURRENTCONTROLSET\CONTROL\TERMINAL SERVER" "ALLOWREMOTERPC" "DWORD" "1" -U <domain>\\<uname>%$varPwd -I $varIP
 
 if [ "$?" = "0" ]; then
   echo -e "\nRemote RPC enabled"
