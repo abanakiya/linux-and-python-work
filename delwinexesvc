@@ -1,0 +1,7 @@
+echo "*** Delete winexesvc ***"
+read -p "Enter IP address: "
+varIP=$REPLY
+read -s -p "Enter domain pwd for uname: "
+varPwd=$REPLY
+services.py domain/uname:$varPwd@$varIP stop -name winexesvc
+services.py domain/uname:$varPwd@$varIP delete -name winexesvc
