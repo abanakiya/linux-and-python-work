@@ -2,7 +2,9 @@
   Fedora, Kali
 
 # Installed:
-Impacket:   https://www.coresecurity.com/corelabs-research/open-source-tools/impacket
+samba:      avail. from default repo.
+
+impacket:   https://www.coresecurity.com/corelabs-research/open-source-tools/impacket
             Note 20170126 - Fedora 25 requirements: pycrypto, pyasnl
 
 rdesktop:   avail. from default repo, or http://www.rdesktop.org/
