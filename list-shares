@@ -1,0 +1,7 @@
+echo "*** List remote shares ***"
+read -p "Enter IP address: "
+varIP=$REPLY
+read -s -p "Enter domain password (<uname>): "
+varPwd=$REPLY
+
+smbclient -L $varIP -U <domain>\\<uname>%$varPwd
