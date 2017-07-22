@@ -2,7 +2,7 @@
   Fedora, Kali
 
 # Installed:
-samba:      avail. from default repo.
+samba:      avail. from default repo
 
 impacket:   https://www.coresecurity.com/corelabs-research/open-source-tools/impacket
             Note 20170126 - Fedora 25 requirements: pycrypto, pyasnl
