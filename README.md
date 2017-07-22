@@ -17,4 +17,5 @@ rdesktop:   avail. from default repo, or http://www.rdesktop.org/
 
 wol:        avail. from default repo
 
-winexe:     https://sourceforge.net/projects/winexe/ (source not tested)
+winexe:     https://sourceforge.net/projects/winexe/ (source not tested) 
+            Note 20170722 - winexe leaves running service, terminate after use (ref: delwinexesvc)
