@@ -1,6 +1,4 @@
 # Bash script mounting shares on Windows based servers
-
-# Basic:
 # mount -t cifs -o username=<username w/o domain prefix> //<server addr/share folder> /mnt/remoteshare/
 
 # Example, mounting remote host c drive (requires file/printer sharing enabled), account = domain\uname
