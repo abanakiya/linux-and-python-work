@@ -1,0 +1,5 @@
+# Remote Desktop
+
+echo "*** REMOTE CONNECTION ***"
+read -p "Enter IP address: "
+rdesktop -u admin -g 1080x780 -r clipboard:PRIMARYCLIPBOARD -r disk:local="local-folder" $REPLY  
