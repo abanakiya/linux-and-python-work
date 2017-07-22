@@ -1,0 +1,12 @@
+echo "*** Start Remote Registry ***"
+
+read -p "Enter IP address: "
+varIP=$REPLY
+read -s -p "Enter domain password (uname): "
+varPwd=$REPLY
+
+net rpc service start remoteregistry -U <domain>\\<uname>%$varPwd -I $varIP
+
+if [ "$?" = "0" ]; then
+  echo -e "\nRemote Registry Started"
+fi
